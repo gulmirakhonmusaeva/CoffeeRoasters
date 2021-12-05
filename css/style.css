@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap");
 
 /* GLOBAL */
 
@@ -16,7 +16,7 @@
   --light-bg:#f8f8f2;
   --hover-color: var(--btn-green);
 }
-
+/*
 html {
   box-sizing: border-box;
   height: 100%;
@@ -100,14 +100,14 @@ img {
 }
 
 /* MAIN */
-.main-content {
+/* .main-content {
   flex-grow: 1;     
   padding-top: 20px;
   padding-bottom: 50px;
-}
+} */
 
 /* SITE-HEADER-INTRO-WRAPPER */
-
+/*
 .site-header-intro-wrapper {
   background-color: var(--light-brown);
   background-image: url("../images/background.png");
@@ -143,10 +143,10 @@ img {
   width: 235px;
   height: 24px;
   object-fit: contain;
-}
+}/*
 
 /* SITENAV */
-
+/*
 .site-nav {
   margin-left: auto;
 }
@@ -177,11 +177,11 @@ img {
 
 .sitenav-link:active {
   opacity: 0.6;
-}
+}*/
 
 
 /* HERO */
-
+/*
 .hero-container {
     display: flex;
     padding-left: 0;
@@ -223,7 +223,7 @@ img {
 }
 .index-hero-img {
     height: 596px;
-}
+}*/
 
 
 /* OUR COLLECTION */
@@ -235,8 +235,7 @@ img {
 .index-collection-inner {
     padding: 50px 143px;
     background-color:var(--light-bg);
-    background-image: url('../images/index-collection-bg.jpg');
-    
+    background-image: url('../images/index-collection-bg.jpg');  
 }
 
 .collection-content-title {
@@ -270,8 +269,6 @@ img {
   
   .collection-item-info {
     flex-grow: 1;
-    /* text-align: left; */
-    
     padding-left: 117px;
     padding-right: 117px;
 
@@ -299,7 +296,7 @@ img {
 }
 
 .index-features-inner {
-   padding: 50px 30px;
+    padding: 50px 30px;
     background: url('../images/index-features-bg.jpg');
     background-size: 100% 700px;
     background-repeat: no-repeat;
@@ -366,8 +363,8 @@ img {
 }
 
 /* HOW-IT-WORKS */
-.how-it-works {
-}
+/* .how-it-works {
+} */
 
 .how-it-works-inner {
     padding: 50px 30px;
@@ -447,73 +444,173 @@ img {
 
 }
 
-/* FOOTER */
 
-.site-footer {
-    padding-top: 65px;
-    padding-bottom: 65px;
-    background-color:var(--light-brown);
-    background-image: url('../images/background.png');
+/* ABOUT-US-PART */
+
+.our-commitment {
+  margin-bottom: 160px;
 }
 
-.site-footer-container {
+.our-commitment-inner {
+  padding-left: 165px;
+  padding-right: 64px;
+  background-color:var(--light-bg);
+  background-image: url('../images/index-collection-bg.jpg');
+  display: flex;
+  align-items: center;
+  color: #000;
+} 
+
+.our-commitment-coffee-img {
+  width: 360px;
+  height: 364px;
+  display: flex;
+  object-fit: fill;
+}
+
+.our-commitment-info {
+  padding-top: 160px;
+  padding-bottom: 200px;
+  padding-left: 185px;
+}
+
+.our-commitment-title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: normal;
+  text-transform: uppercase;
+
+}
+.our-commitment-text {
+  margin: 0;
+  max-width: 626px;
+  padding-right: 34px;
+
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+/* UNCOMPROMISING-QUALITY-SECTIION */
+
+.uncompromising-quality {
+  margin-bottom: 20px;
+}
+
+.uncompromising-quality-inner {
+  padding-right: 30px;
+  display: flex;
+  background-color:var(--btn-brown);
+  background-image:url('../images/index-features-bg.jpg');
+}
+
+.uncompromising-quality-info {
+  padding-top: 100px;
+  padding-left: 143px;
+  padding-right: 38px;
+  padding-bottom: 118px;
+  color: #fff;
+}
+
+.uncompromising-quality-title {
+  margin: 0;
+  margin-bottom: 24px;
+  width: 397px;
+  font-size: 50px;
+  line-height: 59px;
+  font-weight: 700;
+}
+
+.uncompromising-quality-text {
+  margin: 0;
+  max-width: 639px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.uncompromising-quality-img {
+  height: 500px;
+  width: 550px;
+  margin-top: -80px;
+  padding-bottom: 90px;
+  display: flex;
+  object-fit: cover;
+}
+
+
+/* OUR-HEADQUARTERS-SECTION */
+
+.our-headquartes {
+}
+
+.headquartes-inner {
+  padding: 50px 30px;
+  background-color:var(--btn-green);
+  background-image: url('../images/how-it-works-bg.jpg');
+}
+
+.headquartes-title {
+  margin: 0;
+  margin-bottom: 80px;
+  font-size: 50px;
+  line-height: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+
+}
+.headquartes-list {
     display: flex;
-    justify-content:space-between;
-    align-items: center;
-}
-
-.site-footer-logo-link {
-    display: flex;
-}
-
-.site-footer-logo-img {
-    width: 235px;
-    height: 24px;
-    flex-shrink: 0;
-    object-fit: contain;
-}
-
-.site-footer-logo-link:hover {
-    opacity: 0.8;
-  }
-  
-  .site-footer-logo-link:active {
-    opacity: 0.6;
-  }
-
-  .sitenav-footer .sitenav-link {
-    font-size: 16px;
-    line-height: normal;
-}
-
-.sitenav-socials-list {
-    display: flex;
-    list-style: none;
     padding: 0;
     margin: 0;
+    margin-bottom: 60px;
+    margin-left: -20px;
+    text-align: left;
+    list-style: none;
+
 }
-.sitenav-socials-item:not(:last-child) {
-    margin-right: 30px;
+
+.headquartes-item-img {
+  align-self:flex-end;
+  width: 120px;
+  height: 130px;
 }
-.sitenav-socials-link {
+
+
+
+.headquartes-item {
     display: flex;
-    color: #333;
+    flex-direction: column;
+    width: calc(100% / 3 - 20px);
+    margin-left: 20px;
+    padding:45px 55px 40px 20px;
+    background-color:var(--light-bg);
 }
 
-.sitenav-socials-link:active {
-    opacity: 0.8;
+.headquartes-item-info {
+  margin-top: auto;
 }
 
-.facebook:hover {
-    color: rgb(9, 88, 167);
-}
-.instagram:hover {
-    color:#cc2366 ; 
-}
-.twitter:hover {
-    color: dodgerblue;
+.headquartes-item-title {
+  margin: 0;
+  margin-bottom: 10px;
+  width: 231px;
+  font-size: 40px;
+  line-height: normal;
+  font-weight: 500;
 }
 
+.headquartes-link {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.headquartes-link:hover {
+  color: var(--btn-green);
+}
 
 /* RETINA BG */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -522,12 +619,9 @@ img {
   only screen and (min-device-pixel-ratio: 2),
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
-  .site-header-intro-wrapper,
-  .site-footer {
-    background-image: url("//images/background@2x.png");
-  }
 
-  .index-collection-inner {
+  .index-collection-inner,
+  .our-commitment-inner {
     background-image: url('../images/index-collection-bg@2x.jpg');
   }
 
@@ -535,7 +629,7 @@ img {
     background: url('../images/index-features-bg@2x.jpg');
   }
 
-  how-it-works-inner {
+  .how-it-works-inner {
     background-image: url('../images/how-it-works-bg@2x.jpg');
 }
 
