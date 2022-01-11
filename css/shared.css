@@ -223,14 +223,26 @@ img {
     color: #000;
 }
 
+.hero-img-wrapper{
+  position: relative;
+}
+.hero-circle-img{
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+}
+
 .hero-img {
+    display: flex;
     width: 710px;
     height: 696px;
 }
 .index-hero-img {
     height: 596px;
 }
-
 
 
 /* FOOTER */
